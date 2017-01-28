@@ -1,0 +1,67 @@
+{
+  "name": "react-precache-img",
+  "version": "2.0.0",
+  "description": "React component that pre-caches images in the browser",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server -d --config webpack.demo.config.js --progress --colors --display-error-details",
+    "build-demo": "NODE_ENV=production node_modules/.bin/webpack -p --config webpack.demo.config.js --progress --colors --display-error-details",
+    "build-component": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors --display-error-details",
+    "build": "npm run build-component && npm run build-demo",
+    "prepublish": "npm run build",
+    "test": "BABEL_JEST_STAGE=0 jest",
+    "lint": "eslint src/**"
+  },
+  "keywords": [
+    "image",
+    "pre-cache",
+    "cache",
+    "react",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcarlucci/react-precache-img.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcarlucci/react-precache-img/issues"
+  },
+  "homepage": "https://github.com/mcarlucci/react-precache-img#readme",
+  "author": "Matt Carlucci <matthewcarlucci09@gmail.com> (http://mcarlucci.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "jest-cli": "^18.1.0",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-perf": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
