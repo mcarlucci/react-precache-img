@@ -34,6 +34,6 @@ return (
 
 API
 ---
-## `images="Array" [required]`
+#### `images="Array" [required]`
 
 Image urls
