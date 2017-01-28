@@ -1,6 +1,6 @@
 {
   "name": "react-precache-img",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "React component that pre-caches images in the browser",
   "main": "./lib/index.js",
   "scripts": {
@@ -29,10 +29,6 @@
   "homepage": "https://github.com/mcarlucci/react-precache-img#readme",
   "author": "Matt Carlucci <matthewcarlucci09@gmail.com> (http://mcarlucci.com)",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com"
-  },
   "jest": {
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react",
