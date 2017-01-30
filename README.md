@@ -35,7 +35,7 @@ return (
 #### Testing:
 In Chrome, clear your browser cache, then copy and paste this in a new tab to view your cache: `chrome://cache/`
 
-You should see http://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg and https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg at the top of the list after you load a page with the above example component.
+After you load a page with the above example component, you should see http://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg and https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg at the top of the list.
 
 Props
 ---
