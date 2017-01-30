@@ -6,7 +6,8 @@ react-precache-img
 Key features:
 
 - Preload a list of images in the browser for immediate use later in a user session
-
+- Does not render any HTML DOM elements in load making it non-intrusive
+- Extremely lightweight at under 1kb
 
 Install
 -------
@@ -31,13 +32,13 @@ return (
     />
 );
 ```
+#### Testing:
+In Chrome, clear your browser cache, then copy and paste this in a new tab to view your cache: `chrome://cache/`
 
->In Chrome, clear your browser cache then copy and paste this in a new tab to view your cache: `chrome://cache/`
->
->You should see http://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg and https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg at the top of the list after you load a page with the above example component.
+You should see http://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg and https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg at the top of the list after you load a page with the above example component.
 
-API
+Props
 ---
 #### `images={[Array]} [required]`
 
-Image urls
+List of image URLs/URIs to be pre-cached
