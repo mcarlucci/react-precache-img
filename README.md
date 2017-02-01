@@ -13,7 +13,7 @@ Install
 -------
 
 ```bash
-npm install react-precache-img --save
+npm install --save react-precache-img
 ```
 
 Usage
