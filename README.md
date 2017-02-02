@@ -6,7 +6,7 @@ react-precache-img
 Key features:
 
 - Preload a list of images in the browser for immediate use later in a user session
-- Does not render any HTML DOM elements in load making it non-intrusive
+- Does not render any actual HTML DOM elements, making it non-intrusive
 - Extremely lightweight at under 1kb
 
 Install
