@@ -1,4 +1,4 @@
-react-precache-img [![npm](https://img.shields.io/npm/dt/react-precache-img.svg)]() [![npm](https://img.shields.io/npm/v/react-precache-img.svg)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mcarlucci/react-precache-img/blob/master/LICENSE)
+react-precache-img [![npm](https://img.shields.io/npm/dt/react-precache-img.svg)]() [![npm](https://img.shields.io/npm/v/react-precache-img.svg)](https://www.npmjs.com/package/react-precache-img) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mcarlucci/react-precache-img/blob/master/LICENSE)
 ================
 
 > React component that pre-caches images in the browser
